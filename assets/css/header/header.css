@@ -1,0 +1,19 @@
+.header {
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 0) {
+  .header {
+    justify-content: center;
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    justify-content: space-between;
+    padding: 0 5rem;
+  }
+}
